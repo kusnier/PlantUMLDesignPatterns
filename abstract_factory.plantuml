@@ -1,6 +1,6 @@
 /' ABSTRACT FACTORY '/
 
-@startuml
+@startuml Abstract Factory
 
 class Client
 
