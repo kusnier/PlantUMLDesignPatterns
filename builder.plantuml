@@ -1,6 +1,6 @@
 /' BUILDER '/
 
-@startuml
+@startuml Builder
 
 class Director {
     + construct()
