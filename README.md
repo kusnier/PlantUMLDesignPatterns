@@ -49,7 +49,7 @@ The generated diagrams are stored in the *output* folder.
 To run PlantUML directly from the command line for one specific diagram, you can execute:
 
 ```
-java -jar plantuml.jar diagram.txt
+java -jar plantuml.jar diagram.plantuml
 ```
 
 

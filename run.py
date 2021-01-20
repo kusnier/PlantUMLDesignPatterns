@@ -21,11 +21,11 @@ if data_exists:
         data = json.load(fp)
 
 for file in os.listdir():
-    if file.endswith(".txt"):
+    if file.endswith(".plantuml"):
         # run plantuml if diagram is new or has changed
         hash = md5(file)
         has_changed = file not in data or hash != data[file]
-        not_existing = not os.path.isfile('./output/{}'.format(file.replace('txt', 'png')))
+        not_existing = not os.path.isfile('./output/{}'.format(file.replace('plantuml', 'png')))
         
         if has_changed or not_existing:
             print("Processing {}".format(file))
