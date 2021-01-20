@@ -1,6 +1,6 @@
 /' BRIDGE '/
 
-@startuml
+@startuml Bridge
 
 class Abstraction {
     + operation()
