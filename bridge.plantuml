@@ -25,7 +25,7 @@ Implementor <|-- ConcreteImplementorB
 note as N1
     <b><color:royalBlue>Bridge</color></b>
     <b>Type:</b> Structural
-    Decouple an astraction from its
+    Decouple an abstraction from its
     implementation so that the two can
     vary independently.
 end note
