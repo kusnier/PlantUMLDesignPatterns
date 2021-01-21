@@ -1,6 +1,6 @@
 /' COMMAND '/
 
-@startuml
+@startuml Command
 
 class Client
 
