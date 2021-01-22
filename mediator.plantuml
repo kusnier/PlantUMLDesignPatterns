@@ -3,7 +3,7 @@
 @startuml
 
 
-class Mediator
+class Mediator Mediator
 
 class ConcreteMediator
 
