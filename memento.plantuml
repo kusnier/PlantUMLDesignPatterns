@@ -1,6 +1,6 @@
 /' MEMENTO '/
 
-@startuml
+@startuml Memento
 
 class Caretaker
 
