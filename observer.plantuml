@@ -1,6 +1,6 @@
 /' OBSERVER '/
 
-@startuml
+@startuml Observer
 
 interface Subject {
     + attach(in o : Observer)
