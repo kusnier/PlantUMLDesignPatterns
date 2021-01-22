@@ -2,7 +2,7 @@
 
 @startuml
 
-class Client
+class Client Iterator
 
 interface Aggregate {
     + createIterator()
