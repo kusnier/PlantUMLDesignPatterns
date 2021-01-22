@@ -1,6 +1,6 @@
 /' INTERPRETER '/
 
-@startuml
+@startuml Interpreter
 
 class Client
 
