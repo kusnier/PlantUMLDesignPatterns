@@ -1,6 +1,6 @@
 /' TEMPLATE METHOD '/
 
-@startuml
+@startuml Template Method
 
 class AbstractClass {
     + templateMethod()
