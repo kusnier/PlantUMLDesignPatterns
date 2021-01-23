@@ -18,6 +18,8 @@ class ConcreteImplementorB {
     + operationImpl()
 }
 
+hide empty members
+
 Abstraction *-- Implementor
 Implementor <|-- ConcreteImplementorA
 Implementor <|-- ConcreteImplementorB

@@ -20,6 +20,8 @@ class ConcreteDecorator {
     + addedBehaviour()
 }
 
+hide empty members
+
 Component <|-- ConcreteComponent
 Component <|-- Decorator
 Component --* Decorator
@@ -29,7 +31,7 @@ note as N1
     <b><color:royalBlue>Decorator</color></b>
     <b>Type:</b> Structural
     Attach additional responsibilities to an
-    object synamically. Provide a flexible
+    object dynamically. Provide a flexible
     alternative to sub-classing for extending
     functionality.
 end note

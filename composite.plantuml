@@ -20,6 +20,8 @@ class Composite {
     + getChild(in i : int)
 }
 
+hide empty members
+
 Component <|-- Leaf
 Component <|-- Composite
 Component --* Composite
