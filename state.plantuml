@@ -1,6 +1,6 @@
 /' STATE '/
 
-@startuml State
+@startuml
 
 class Context {
     + request()

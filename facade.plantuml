@@ -1,6 +1,6 @@
 /' FACADE '/
 
-@startuml Facade
+@startuml
 
 class Facade
 

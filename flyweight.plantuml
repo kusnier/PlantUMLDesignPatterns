@@ -1,6 +1,6 @@
 /' FLYWEIGHT '/
 
-@startuml Flyweight
+@startuml
 
 class FlyweightFactory {
     + getFlyweight()

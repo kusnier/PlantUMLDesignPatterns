@@ -1,6 +1,6 @@
 /' DECORATOR '/
 
-@startuml Decorator
+@startuml
 
 interface Component {
     + operation()

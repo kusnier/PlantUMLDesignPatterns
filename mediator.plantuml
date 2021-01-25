@@ -1,6 +1,6 @@
 /' MEDIATOR '/
 
-@startuml Mediator
+@startuml
 
 
 class Mediator

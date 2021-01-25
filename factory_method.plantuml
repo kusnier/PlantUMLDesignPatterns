@@ -1,6 +1,6 @@
 /' FACTORY METHOD '/
 
-@startuml Factory Method
+@startuml
 
 class Creator {
     + factoryMethod()

@@ -1,6 +1,6 @@
 /' PROXY '/
 
-@startuml Proxy
+@startuml
 
 class Client
 

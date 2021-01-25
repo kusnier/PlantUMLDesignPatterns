@@ -1,6 +1,6 @@
 /' COMPOSITE '/
 
-@startuml Composite
+@startuml
 
 interface Component {
     + operation()

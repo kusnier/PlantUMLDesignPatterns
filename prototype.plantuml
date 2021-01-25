@@ -1,6 +1,6 @@
 /' PROTOTYPE '/
 
-@startuml Prototype
+@startuml
 
 interface Prototype {
     + clone()

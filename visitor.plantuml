@@ -1,6 +1,6 @@
 /' VISITOR '/
 
-@startuml Visitor
+@startuml
 
 class Client
 

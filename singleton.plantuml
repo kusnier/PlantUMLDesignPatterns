@@ -1,6 +1,6 @@
 /' SINGLETON '/
 
-@startuml Singleton
+@startuml
 /' If symbols are not wanted uncomment '/
 ' skinparam classAttributeIconSize 0
 

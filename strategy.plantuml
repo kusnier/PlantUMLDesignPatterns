@@ -1,6 +1,6 @@
 /' STRATEGY '/
 
-@startuml Strategy
+@startuml
 
 class Context
 

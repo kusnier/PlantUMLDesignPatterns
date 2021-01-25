@@ -1,6 +1,6 @@
 /' CHAIN OF RESPONSIBILITY '/
 
-@startuml Chain of Responsibility
+@startuml
 
 class Client
 

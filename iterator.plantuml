@@ -1,6 +1,6 @@
 /' ITERATOR '/
 
-@startuml Iterator
+@startuml
 
 class Client
 
