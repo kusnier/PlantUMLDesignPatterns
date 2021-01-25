@@ -13,7 +13,7 @@ Get-ChildItem -Filter *.plantuml | ForEach-Object {
     $CurrentHash =  $(Get-FileHash $CurrentFile -Algorithm MD5).Hash
     $GeneratedHash = $DataHashes."$CurrentFileName"
     $FileHasChanged = $CurrentHash -ne $GeneratedHash
-    $FileNotExisting = !(Test-Path $TargetFile)
+    $FileNotExisting = !(Test-Path (Join-Path -Path output -ChildPath $TargetFile))
 
     if ($FileHasChanged -or $FileNotExisting) {
         java -jar plantuml.jar -duration -o output $CurrentFile
