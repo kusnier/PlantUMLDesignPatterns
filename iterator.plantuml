@@ -1,8 +1,8 @@
 /' ITERATOR '/
 
-@startuml
+@startuml Iterator
 
-class Client Iterator
+class Client
 
 interface Aggregate {
     + createIterator()

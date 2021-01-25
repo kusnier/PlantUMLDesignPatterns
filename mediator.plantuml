@@ -1,9 +1,9 @@
 /' MEDIATOR '/
 
-@startuml
+@startuml Mediator
 
 
-class Mediator Mediator
+class Mediator
 
 class ConcreteMediator
 
