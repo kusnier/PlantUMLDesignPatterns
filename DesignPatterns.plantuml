@@ -1,0 +1,47 @@
+@startmindmap
+
+center header <b>Design Patterns</b>
+
+* DesignPatterns
+
+left side
+** <b>1. Creational</b>
+*** <b>Class</b>
+**** <b>Factory method</b>
+*** <b>Object</b>
+**** Abstract Factory
+**** <b><font color="#00AA13">Builder</b>
+**** Prototype
+**** <b><font color="#00AA13">Singleton</b>
+
+
+** <b>2. Structural</b>
+*** <b>Class</b>
+**** <b><font color="#00AA13">Adapter</b>
+*** <b>Object</b>
+**** <font color="#5BA7FF">Bridge
+**** <b><font color="#FC8338">Composite</b>
+**** <b>Decorator</b>
+**** <b><font color="#00AA13">Facade</b>
+**** <b>Proxy</b>
+
+right side
+** <b>3. Behavioural</b>
+
+*** <b>Class</b>
+**** <b>Interpreter</b>
+**** Template Method
+
+*** <b>Object</b>
+**** Chain Of Responsibility
+**** <b><font color="#00AA13">Command</b>
+**** <b><font color="red"> Iterator</b>
+**** Mediator
+**** <font color="#FC8338">Memento
+**** Flyweight
+**** <b><font color="#00AA13">Observer</b>
+**** State
+**** <b>Strategy</b>
+**** <b><font color="#FC8338">Visitor</b>
+
+@endmindmap
